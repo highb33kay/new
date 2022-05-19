@@ -21,6 +21,7 @@ def hacker_news_api_selector():
 
     return context 
 
+# return home
 def home(request):
     context = hacker_news_api_selector()
     return render(request, "news_api/home.html", context)
