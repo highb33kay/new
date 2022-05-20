@@ -5,6 +5,14 @@
         },
         {
             "path": "..\\..\\..\\FileOrganizer"
+        },
+        {
+            "path": "..\\..\\..\\Zuri"
         }
-    ]
+    ],
+    "extensions": {
+        "recommendations": [
+            "donjayamanne.python-environment-manager"
+        ]
+    }
 }
