@@ -9,8 +9,9 @@
     
     <h1>News App</h1>
     ...
-    {% for x in objects %}
-        <li>{{ x.title }}</li>
+    <{% for x in objects %}
+        <p>{{ x.title }}</p>
+        <a href="{{x.url}}" target="_blank" >Open</a>
     {% endfor %}
 
 </body>
